@@ -1,8 +1,9 @@
-
 describe('Primer Test', () => {
-  it('passes', () => {
-    cy.visit('http://localhost:3000')
-    cy.get('.inline-flex').click()
-    //cy.contains('type').click()
+    it('pas', () => {
+      cy.origin( 'cypress.io', () =>{
+        cy.task('conex', 'This will be output to the terminal').then((data) => {
+      })
+  //        global.db.User.findOne().then(function(usuario){
+    })
   })
 })
